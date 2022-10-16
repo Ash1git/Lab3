@@ -5,3 +5,10 @@ try:
         f.write('Create a new text file!')
 except FileNotFoundError:
     print("The 'docs' directory does not exist")
+
+
+def helloWorld():
+	print(‘Hello World’)
+
+
+helloWorld()
